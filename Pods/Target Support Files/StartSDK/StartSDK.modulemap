@@ -1,0 +1,6 @@
+framework module StartSDK {
+  umbrella header "StartSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

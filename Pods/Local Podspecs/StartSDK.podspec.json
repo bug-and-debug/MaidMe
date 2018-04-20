@@ -1,0 +1,22 @@
+{
+  "name": "StartSDK",
+  "version": "0.2.1",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "homepage": "https://github.com/payfort/start-ios-sdk",
+  "authors": {
+    "drif": "drif@mail.ru"
+  },
+  "summary": "This iOS SDK makes it easy for developers to accept payments inside mobile application.",
+  "source": {
+    "git": "https://github.com/payfort/start-ios-sdk.git",
+    "tag": "v0.2.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "StartSDK/StartSDK/**/*.{h,m}",
+  "public_header_files": "StartSDK/StartSDK/Models/{Start,StartCard,StartToken}.h"
+}

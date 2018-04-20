@@ -1,0 +1,95 @@
+PODS:
+  - Alamofire (3.5.0)
+  - Crashlytics (3.8.4):
+    - Fabric (~> 1.6.3)
+  - CryptoSwift (0.2.3)
+  - EasyTipView (0.2.2)
+  - Fabric (1.6.11)
+  - GoogleMaps (2.0.1):
+    - GoogleMaps/Maps (= 2.0.1)
+  - GoogleMaps/Base (2.0.1)
+  - GoogleMaps/Maps (2.0.1):
+    - GoogleMaps/Base (= 2.0.1)
+  - GooglePlacePicker (2.0.1):
+    - GoogleMaps (= 2.0.1)
+    - GooglePlaces (= 2.0.1)
+  - GooglePlaces (2.0.1):
+    - GoogleMaps/Base (= 2.0.1)
+  - GooglePlacesSearchController (0.1.6)
+  - PhoneNumberKit (0.8.5):
+    - PhoneNumberKit/PhoneNumberKitCore (= 0.8.5)
+    - PhoneNumberKit/UIKit (= 0.8.5)
+  - PhoneNumberKit/PhoneNumberKitCore (0.8.5)
+  - PhoneNumberKit/UIKit (0.8.5):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - ReachabilitySwift (2.4)
+  - Realm (2.3.0):
+    - Realm/Headers (= 2.3.0)
+  - Realm/Headers (2.3.0)
+  - RealmSwift (2.3.0):
+    - Realm (= 2.3.0)
+  - SDVersion (4.0.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SSKeychain (1.4.1)
+  - StartSDK (0.2.1)
+  - SVProgressHUD (2.1.2)
+  - SwiftyJSON (2.3.2)
+  - SWTableViewCell (0.3.7)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - Crashlytics
+  - CryptoSwift (~> 0.2.3)
+  - EasyTipView (= 0.2.2)
+  - Fabric (~> 1.6)
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - GooglePlacesSearchController
+  - PhoneNumberKit (~> 0.6)
+  - ReachabilitySwift (~> 2.3)
+  - RealmSwift (~> 2.3.0)
+  - SDVersion
+  - SDWebImage
+  - SSKeychain
+  - StartSDK (from `https://github.com/payfort/start-ios-sdk.git`)
+  - SVProgressHUD
+  - SwiftyJSON (~> 2.3.0)
+  - SWTableViewCell (~> 0.3.7)
+
+EXTERNAL SOURCES:
+  StartSDK:
+    :git: https://github.com/payfort/start-ios-sdk.git
+
+CHECKOUT OPTIONS:
+  StartSDK:
+    :commit: b3830d64b9fb7d68708ef3376e24f6f46f48450c
+    :git: https://github.com/payfort/start-ios-sdk.git
+
+SPEC CHECKSUMS:
+  Alamofire: b70a7352335f8ea5babd0a923eb7e8eacc67b877
+  Crashlytics: 79e236942ca1e7fc641df1feb9a275360a78ab6a
+  CryptoSwift: b2bf37b8e7cc6d682ef3365cb966bc5ae5174aa5
+  EasyTipView: 812278deb90bdbe5189b7460988f8df4d1cb4266
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  GoogleMaps: f09da64fc987c1aa29394567c3cab5a3df83c402
+  GooglePlacePicker: e7b11b732e40dbe76e8ab4c5fc2f4a7c32b96578
+  GooglePlaces: 72fab1d1651c6df0322f2aad245ffb15b80d3c56
+  GooglePlacesSearchController: a74fa0545896fee45426b8a9c62939785e6b0634
+  PhoneNumberKit: 5668a7af19d2e566d92831a632ee80f5047eff75
+  ReachabilitySwift: dc7452dab85ff881904215e1a113326ad8d07beb
+  Realm: 69d7de9aa569a11eed490aaabc8f2109e3985ecf
+  RealmSwift: dc6f99ea55e59490cec69c860f91932b6bf7efb6
+  SDVersion: 6afaf76a7e71d620cc2039f96d4bff3064c129ec
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
+  StartSDK: 8415d6c85531a20f0501c6dad4e74970e23a5b7c
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
+
+PODFILE CHECKSUM: 40cb46c9c1ebde1808a4c756dafa6539fc319f87
+
+COCOAPODS: 1.2.1
